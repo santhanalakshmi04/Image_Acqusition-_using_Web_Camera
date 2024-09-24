@@ -1,6 +1,5 @@
+### Aim
 
-Aim:
- 
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
 i) Write the frame as JPG 
 ii) Display the video 
@@ -8,8 +7,11 @@ iii) Display the video by resizing the window
 iv) Rotate and display the video
 
 ## Software Used
+
 Anaconda - Python 3.7
+
 ## Algorithm
+
 ### Step 1:
 Use cv2.VideoCapture(0) to access web camera.
 
@@ -41,6 +43,7 @@ viedoCaptureObject.release()
 cv2.destroyAllWindows()
 ```
 ## ii) Display the video
+
 ```
 import numpy as np
 import cv2
@@ -112,17 +115,21 @@ cv2.destroyAllWindows()
 ## Output
 
 ### i) Write the frame as JPG image
+
 ![DIP IMG )!](https://github.com/user-attachments/assets/2f6d8440-6029-45c1-bd8a-877262836038)
 
 
 ### ii) Display the video
+
 ![DIP IMG )!](https://github.com/user-attachments/assets/c0d650b6-bbc3-4327-81fd-0a592eb75d89)
 
 ### iii) Display the video by resizing the window
+
 ![2024-09-24](https://github.com/user-attachments/assets/433db15d-e0c8-45e4-a11e-57cbd6b5cec9)
 
 
 ### iv) Rotate and display the video
+
 ![2024-09-24 (1)](https://github.com/user-attachments/assets/e2bd1eed-40a5-4a44-ac4b-baa13d6ba063)
 
 
