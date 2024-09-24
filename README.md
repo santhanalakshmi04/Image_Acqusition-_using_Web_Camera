@@ -28,8 +28,14 @@ Use cv2.imshow to show the video.
 End the program and close the output video window by pressing 'q'.
 
 ## Program:
+
+
 ### Developed By:SANTHANA LEKSHMI K
+
+
 ### Register No: 212222240091
+
+
 
 ## i) Write the frame as JPG file
 ```
@@ -42,6 +48,8 @@ cv2.imwrite("webcam_img.jpg",frame)
 viedoCaptureObject.release()
 cv2.destroyAllWindows()
 ```
+
+
 ## ii) Display the video
 
 ```
@@ -59,6 +67,8 @@ cv2.waitKey(10000)
 cap.release()
 cv2.destroyAllWindows()
 ```
+
+
 ## iii) Display the video by resizing the window
 ```
 import numpy as np
@@ -85,6 +95,8 @@ cv2.imwrite('captured_image1.jpg', image)
 cap.release()
 cv2.destroyAllWindows()
 ```
+
+
 ## iv) Rotate and display the video
 
 ```
